@@ -1,0 +1,72 @@
+/* Styling tabel header */
+.tabel-header > thead > tr > th {
+  vertical-align: middle;
+  text-align: center;
+  background: #ffffff;
+}
+
+/* Datatable remove sorting arrow icon */
+.dataTable > thead > tr > th[class*="sort"]:after {
+  content: "" !important;
+}
+
+.dataTable > thead > tr > th[class*="sort"]:before {
+  content: "" !important;
+}
+
+/* Custom section */
+.content-custom {
+  min-height: 480px;
+}
+
+/* Table custom */
+.table-custom {
+  min-height: 380px;
+}
+
+/* Styling tabel header */
+.tabel-header > thead > tr > th {
+  vertical-align: bottom;
+  text-align: center;
+  background: rgb(221, 221, 221);
+}
+
+/* select2 custom style */
+.select2-container--default .select2-selection--single,
+.select2-selection .select2-selection--single {
+  border: 1px solid #d2d6de;
+  border-radius: 0;
+  padding: 6px 12px;
+  height: 34px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  padding-right: 10px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  padding-left: 0;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  margin-top: 0;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  height: 28px;
+  right: 3px;
+}
+
+.table-bordered .td-center {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fs-2 {
+  font-size: 1.5em;
+}
